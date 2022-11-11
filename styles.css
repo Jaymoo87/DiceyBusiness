@@ -2,11 +2,15 @@
     display: inline-block;
     height: 100px;
     width: 100px;
-    border-radius: 2em;
     border: 3px;
     background-color: darkgray;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
+    text-align: center;
+    user-select: none;
+    box-shadow: 20px;
+    font-size: 60px;
+    border-radius: 6px;
+}    
 
-}
+
 
