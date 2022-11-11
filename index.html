@@ -1,19 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
-</head>
-<body>
-<input type="button" value="Generate Die" class="btn bg-primary" id="createdie">
-<input type="button" value="Roll Dice" class="btn bg-success" id="rolldie">
-<input type="button" value="Add em' all up" class="btn bg-secondary" id= "sumDice">
-
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-info">
+    <div
+      class="row bg-secondary col-10 mt-5 mx-5 justify-content-center border border-info rounded shadow p-3 mb-5"
+      id="buttons"
+    >
+      <div
+        class="row bg-info col-10 mt-4 mx-3 justify-content-center border border-info rounded shadow p-3 mb-5"
+      >
+        <input
+          type="button"
+          value="Generate Die"
+          class="btn bg-primary m-1"
+          id="createdie"
+        />
+        <input
+          type="button"
+          value="Roll Dice"
+          class="btn bg-success m-1"
+          id="rolldie"
+        />
+        <input
+          type="button"
+          value="Add em' all up"
+          class="btn bg-secondary m-1"
+          id="sumDice"
+        />
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

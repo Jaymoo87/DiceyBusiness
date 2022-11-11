@@ -7,7 +7,7 @@ $("body").append('<div id="container"></div');
 //create class Die ('this.' within the brackets  refers to Die, the parent class.)
 class Die {
   constructor() {
-    this.div = $("<div id='die'></div>");
+    this.div = $("<div class='shadow' id='die'></div>");
     this.roll();
     //places the new div into an empty array
     arrayOfDice.push(this);
@@ -55,8 +55,11 @@ function addDice() {
   for (let i = 0; i < arrayOfDice.length; i++) {
     sum += arrayOfDice[i].value;
   }
-  if (sum > 25) {
-    alert(`${sum}: That's big numbers right there! `);
+  if (sum > 40) {
+    alert(
+      `${sum}: That's big numbers right there! 
+      Look at all them dots! Don't hurt your head!`
+    );
   } else {
     alert(`${sum}: gotta do better than that, that's baby numbers`);
   }
