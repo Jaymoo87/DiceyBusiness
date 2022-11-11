@@ -1,0 +1,12 @@
+#die {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 2em;
+    border: 3px;
+    background-color: darkgray;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
